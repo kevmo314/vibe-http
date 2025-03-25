@@ -22,7 +22,11 @@ Try some subdomains too, for example
 - https://jobs.vibehttp.com/
 - https://recipes.vibehttp.com/blog/winter-salads-for-dogs/
 
-If you like the page, be sure to save it. Because you're not going to see it again...
+Check out the _edgier_ parts of the site too
+
+- https://vibehttp.com/.htaccess
+- https://vibehttp.com/index.phps
+- https://vibehttp.com/robots.txt
 
 ## Motivation
 

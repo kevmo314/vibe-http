@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"os"
+	"strings"
 
 	"github.com/google/uuid"
 	"github.com/openai/openai-go"
@@ -57,6 +58,12 @@ func main() {
 					w.Write([]byte(err.Error()))
 					return
 				}
+				return
+			}
+
+			if !strings.HasSuffix(r.URL.Path, "vibehttp.com") {
+				// too many bots
+				http.NotFound(w, r)
 				return
 			}
 
