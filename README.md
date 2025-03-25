@@ -28,6 +28,8 @@ Check out the _edgier_ parts of the site too
 - https://vibehttp.com/index.phps
 - https://vibehttp.com/robots.txt
 
+Don't like your page? Hit refresh to reroll.
+
 ## Motivation
 
 ![motivation](motivation.jpg)
