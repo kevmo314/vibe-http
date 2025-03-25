@@ -61,7 +61,7 @@ func main() {
 				return
 			}
 
-			if !strings.HasSuffix(r.URL.Path, "vibehttp.com") {
+			if !strings.HasSuffix(r.Host, "vibehttp.com") {
 				// too many bots
 				http.NotFound(w, r)
 				return
